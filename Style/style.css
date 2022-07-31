@@ -1,0 +1,471 @@
+@font-face {
+  font-family: ;
+  src: url();
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+
+h2 {
+  font-size: 2.5em;
+}
+
+
+ /* INIZIO Barra di navigazione */
+.back {
+  position: fixed; 
+  display: flex;
+  background-color: #F15412;
+  height: 69px;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Logo {
+  height: 70px;
+  width: 70px;
+  margin-right: 10px;
+  border-radius: 70%;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 2em;
+  width: 40%;
+}
+
+.vicini {
+  display: flex;
+  align-items: center;
+}
+
+.Nome {
+  font-size: 2em;
+}
+
+.Home,
+.projects,
+.about-me,
+.contacts,
+.servizi {
+  background-color: #34B3F1;
+  text-decoration: none;
+  border-radius: 50%;
+  font-size: 1.2em;
+  justify-content: space-around;
+  margin-right: 80px;
+  }
+
+.Home:hover,
+.projects:hover,
+.about-me:hover,
+.contacts:hover,
+.servizi:hover {
+  color: white;
+  font-size: 1.3em;
+}
+
+.nav-menu {
+  color: black;
+  cursor: pointer;
+  font-size: 1.5em;
+  text-decoration: none;
+  }
+ 
+
+
+/* FINE Barra di Navigazione*/
+/*Home*/
+
+.sfondo-pagina{
+  display: flex;
+  position: fixed;
+  overflow: hidden;
+  z-index: -3;
+  width: 100%;
+  height: 100%;
+}
+
+.Sfondo {
+  height: 674px;
+  z-index: -1;
+  position: absolute;
+}
+
+.hero {
+  display: flex;
+  margin: 10% 5% -4% 60%;
+  background-color:  rgba(255, 255, 255, 0.904);
+  justify-content: center;
+  border: 2px solid #34B3F1;
+  padding: 100px;
+  border-radius: 5%;
+}
+
+.Titolo {
+  text-align: center;
+}
+
+
+
+.hero1 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+.bottonetitolo {
+  padding: 30px 40px;
+  border: 1px solid black;
+  margin-right: 5%;
+  background-color: #34B3F1;
+  border-radius: 10%;
+}
+
+.bottonetitolo:hover {
+  background-color: #F15412;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/*Fine Home */
+/*Projects*/
+
+#projects {
+  background-color: #F15412;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15%;
+}
+
+.esempi {
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-around;
+  background-color: #EEEEEE;
+}
+
+.Blocchi {
+  border: 1px solid pink;
+  height: 300px;
+  width: 330px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+} 
+
+.projectlink {
+  height: 150px;
+  text-align: center;
+  font-size: large;
+  padding-top: 15px;
+}
+
+/*Fine Projects*/
+/*Servizi*/
+
+#servizi{
+  text-align: center;
+  background-color: #F15412;
+}
+
+#liposizione {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+
+.ridimensiona {
+  height: 200px;
+  width:200px; 
+  margin-right: 10%;
+}
+
+.aria {
+  display: flex;
+  align-items: center;
+  
+}
+/*Fine Servizi*/
+/*ABout-Me*/
+#about-me {
+  text-align: center;
+  background-color: #F15412;
+  margin-top: 10%;
+} 
+
+.sonoio {
+  display: flex;
+  justify-content: space-around;
+}
+
+.Paragrafosonoio {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+  width: 300px;
+  border-radius: 50%;
+  margin-top: 5%;
+}
+
+.miafoto {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin-top: 5%;
+}
+
+.pcs{
+  height: 400px;
+  width: 300px;
+  border-radius: 2%;
+}
+
+/*Fine ABout-Me */
+/*Contacts*/
+#contatti{
+  text-align: center;
+  background-color: #F15412;
+  margin-top: 10%;
+} 
+
+.dati {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top:10%;
+}
+
+.dati1{
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+  font-size: 1.5em;
+}
+
+.dati2{
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+ 
+}
+
+/*FINE Contacts*/
+/*Footer*/
+
+#principale {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #d8d7d7;
+  margin-top: 50px;
+  padding-top: 10px;
+}
+
+.nomecognome {
+  text-align: center;
+  
+}
+
+.dati2 { 
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding-top: 10px;
+  
+}
+
+
+#link2 {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.distanza {
+  margin-top: 20px;
+  list-style: none;
+}
+
+.form-row {
+  margin-top: 20px;
+}
+
+.invia {
+  padding: 10px 20px 10px 20px;
+}
+
+.invio {
+  margin: 10px 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.copyright {
+  background-color: #34B3F1;
+  padding: 0.40em;
+  display: flex;
+  justify-content: center;
+}
+/*FINE Footer*/
+/*Bottone ritorno*/
+
+.back-top {
+  background-color: #309dd4c9;
+  text-decoration: none;
+  padding: 15px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  overflow:hidden;
+  justify-content: end;
+  border-radius: 50%;
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 415px) {
+ /*Barra di Navigazione */ 
+  
+  .Home,
+  .projects,
+  .about-me,
+  .contacts,
+  .servizi {
+  position: fixed;
+    overflow: hidden;
+    height: 0;
+  }
+/*Fine Barra di Navigazione */ 
+/*Home*/
+.hero {
+  margin: 5% 5% -4% 5%; 
+}
+
+.Sfondo{
+  
+  width: 100%;
+  }
+/*Fine Home */
+/*Projects*/
+
+#projects {
+  margin-top: 10%;
+}
+
+.esempi {
+  flex-direction: column;
+  width: 100%;
+}
+
+.Blocchi {
+  width: auto;
+}
+
+/*Fine Proojects*/
+/*ABout Me*/
+
+.Paragrafosonoio {
+width: auto;
+}
+
+.sonoio {
+  flex-direction: column;
+}
+
+.miafoto {
+  justify-content: center;
+  width:auto;
+}
+
+/*fine About-me*/
+/*Contatti*/
+.dati{
+  flex-direction: column;
+}
+
+.dati1 {
+  justify-content: flex-start;
+}
+/*Fine Contatti*/
+/*Footer*/
+
+#principale {
+  display: flex;
+  flex-direction: column;
+}
+
+#link2 {
+  display: none;
+}
+
+
+
+}
+
+
+
+
+/* Tablet Styles */
+@media only screen and (min-width: 416px) and (max-width: 960px) {
+ /*Barra di Navigazione */ 
+  .Home,
+  .projects,
+  .about-me,
+  .contacts,
+  .servizi {
+    overflow: hidden;
+    position: fixed;
+    height: 0;
+  }
+
+/*Fine Barra di Navigazione */ 
+/* Home */
+.hero {
+ margin: 5% 0% -4% 50%;
+}
+
+.Sfondo {
+  
+  width: 100%;
+}
+/*Fine Home */
+/*Projects*/
+#projects {
+  margin-top: 20%;
+}
+/*FINE Project */
+/*Footer*/
+
+#link2 {
+  display: none;
+}
+
+}
+
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+ /*Barra di Navigazione */ 
+  .nav-menu {
+    display: none;
+  }
+/*Fine Barra di Navigazione */ 
+/* Home */
+.Sfondo {
+  height: 100%;
+  width: 100%;
+}
+/*Fine Home */
+
+}
